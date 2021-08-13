@@ -1,0 +1,361 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*
+{
+  font-size: 0.97em;
+}
+div.main
+{
+  height: 630px;
+  width: 100%;
+}
+div.left
+{
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: rgb(0, 9, 51);
+}
+div.right
+{
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: silver;
+  text-align: left;
+  position: relative;
+}
+div#mainShow, div#signInShow, div#signUpShow, div#recoverShow
+{
+  display: none;
+}
+form#mainForm
+{
+  display: block;
+  height: 200px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+form#signInForm
+{
+  display: block;
+  height: 225px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+form#recoverForm
+{
+  display: block;
+  height: 145px;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+}
+form#signUpForm
+{
+  display: block;
+  height: 380px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+div.leftForm
+{
+  margin-top: 20px;
+  margin-left: 27px;
+  float: left;
+  width: 45%;
+}
+div.rightForm
+{
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  width: 45%;
+}
+div.bottomForm
+{
+  float: left;
+  width: 91.6%;
+  margin-left: 26px;
+  margin-top: 10px;
+}
+div.contactBlue
+{
+  height: 30px;
+  width: 100%;
+  background-color: #008ca1;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+}
+div.contactPurple
+{
+  height: 30px;
+  width: 100%;
+  background-color: #5c36b8;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+}
+div.contactLightBlue
+{
+  height: 30px;
+  width: 100%;
+  background-color: #2580ed;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+}
+div.contactRed
+{
+  height: 30px;
+  width: 100%;
+  background-color: #ba1645;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+}
+div.bottomLeft
+{
+  float: left;
+  width: 50%;
+}
+div.bottomRight
+{
+  float: left;
+  width: 50%;
+}
+span.label
+{
+  display: block;
+}
+span.nameOfInput
+{
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+input.inputElement
+{
+  display: block;
+  width: 260px;
+  margin-left: 20px;
+  height: 22px;
+}
+select.selectElement
+{
+  display: block;
+  width: 270px;
+  height: 30px;
+  margin-left: 20px;
+}
+label.checkElement
+{
+  display: block;
+  margin-left: 16px;
+  text-align: left;
+}
+button.buttonIn
+{
+  height: 30px;
+  width: 95px;
+  margin-right: 10px;
+  background-color: #bf0b72;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button.buttonForgot
+{
+  height: 30px;
+  width: 165px;
+  border: none;
+  color: gray;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button.buttonSend
+{
+  height: 30px;
+  width: 130px;
+  margin-right: 10px;
+  background-color: #2277ed;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button.buttonUp
+{
+  border: none;
+  height: 30px;
+  width: 130px;
+  color: gray;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button.buttonSignUp
+{
+  height: 30px;
+  width: 130px;
+  margin-right: 10px;
+  background-color: #178321;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button.buttonCancel
+{
+  height: 30px;
+  width: 130px;
+  border: none;
+  color: gray;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button.buttonSendMain
+{
+  height: 30px;
+  width: 130px;
+  margin-right: 10px;
+  margin-top: 15px;
+  background-color: #df4235;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button.buttonCancelMain
+{
+  height: 30px;
+  width: 130px;
+  border: none;
+  color: gray;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.marginClass
+{
+  margin-top: -5px;
+  margin-bottom: 5px;
+  
+}
+.marginTop
+{
+  margin-top: 5px;
+}
+.marginBottom
+{
+  margin-bottom: 10px;
+}
+.marginTopSecond
+{
+  margin-top: -5px;
+}
+input.radioElement
+{
+ margin-left: -160px;
+ margin-bottom: 10px;
+}
+textarea.textareaElement
+{
+  display: block;
+  height: 40px;
+  margin-left: 20px;
+  width: 260px;
+}
+textarea.textareaMain
+{
+  display: block;
+  height: 80px;
+  width: 270px;
+  margin-left: 15px;
+}
+span.title
+{
+  display: block;
+  height: 10px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+div#signInShow
+{
+  position: absolute;
+  top: 10px;
+  z-index: 3;
+  text-align: left;
+  left:700px;
+}
+div#signUpShow
+{
+  position: absolute;
+  top: 125px;
+  z-index: 3;
+  text-align: left;
+  left:700px;
+}
+div#recoverShow
+{
+  position: absolute;
+  top: 300px;
+  z-index: 3;
+  text-align: left;
+  left:700px;
+}
+div#mainShow
+{
+  position: absolute;
+  top: 360px;
+  left: 25px;
+}
+.selectElement
+{
+  color: gray;
+}
